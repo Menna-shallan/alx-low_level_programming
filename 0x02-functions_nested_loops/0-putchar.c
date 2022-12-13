@@ -5,13 +5,9 @@
  *
  * Return: Always  (Success)
  */
-int main(void)
+int _putchar(char c)
 {
-
-  var = getchar(_putchar);
-  putchar(var, '\n');
- 
- 
-  return(0)
+	return (write(1, &c, 1));
 }
+
 
