@@ -1,11 +1,11 @@
-#include "main.h"
 /*
- * File: 1-alphabet.c
- * Auth: Menna
+ *Auth: Menna Shallan
  */
+
+#include "main.h"
 /**
- * print_alphabet - prints the alphabet in lowercase, 
- * followed by a new line.
+ *print_alphabet - prints the alphabet in lowercase, 
+ *followed by a new line.
  */
 void print_alphabet(void)
 {
