@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 /**
  * print_rev - prints string follwed by new line.
  * @s: string to be printed
