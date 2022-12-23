@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - prints the biggest prime factor of a number.
+ * main - prints the bgest prime factor of a number.
  *
  * Return: Always 0.
  */
@@ -17,7 +17,7 @@ int main(void)
 	}
 	else
 	{
-		printf("%ld\n", biggestFactor(number));
+	printf("%ld\n", bgestFactor(number));
 	}
 	return (0);
 }
@@ -55,7 +55,7 @@ int isPrime(long int n)
  * @a: number to check
  * Return: biggest factor
  */
-long int biggestFactor(long int a)
+long int bgestFactor(long int a)
 {
 	long int i, factor;
 
